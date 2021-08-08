@@ -20,14 +20,20 @@ class SortingTest {
     }
 
     @Test
-    void selectionSorting() {
-        sort.selectionSorting(expected);
+    void selectionSort() {
+        sort.selectionSort(expected);
         assertEquals(expected, actual);
     }
 
     @Test
-    void bubbleSorting() {
-        sort.bubbleSorting(expected);
+    void bubbleSort() {
+        sort.bubbleSort(expected);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void insertSort() {
+        sort.insertSort(expected);
         assertEquals(expected, actual);
     }
 }
