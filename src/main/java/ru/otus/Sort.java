@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Sort {
     /** Поле - ArrayList целых чисел */
-    ArrayList<Integer> list;
+    private ArrayList<Integer> list;
 
     /**
      * Конструктор, создает и заполняет случайными числами (0-90) ArrayList
